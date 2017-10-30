@@ -1,0 +1,27 @@
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_modal}">
+    {processedRow.tx_wsbootstrapcomponents_modal}<br>
+</f:if>
+<f:if condition="{data.header}">
+    <h2>{data.header}</h2>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_modalcontent}">
+    <f:for each="{processedRow.tx_wsbootstrapcomponents_modalcontent}" as="item">
+        <ul class="list-inline">
+            <li>
+                <h4>{item.header}</h4>
+            </li>
+        </ul>
+    </f:for>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_modalclose}">
+    <p><strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_modalclose" /></strong><br>
+        {processedRow.tx_wsbootstrapcomponents_modalclose}</p>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_modalaction}">
+    <p><strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_modalaction" /></strong><br>
+        {processedRow.tx_wsbootstrapcomponents_modalaction}</p>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_modalactiontext}">
+    <p><strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_modalactiontext" /></strong><br />
+        {processedRow.tx_wsbootstrapcomponents_modalactiontext}</p>
+</f:if>

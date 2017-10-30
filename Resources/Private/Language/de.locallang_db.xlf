@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-10-28T16:16:01+02:00" product-name="ws_bootstrapcomponents">
+    <header/>
+    <body>
+      <trans-unit id="tx_wsbootstrapcomponents_accordion" xml:space="preserve">
+        <source>tx_wsbootstrapcomponents_accordion</source>
+         <target state="translated">tx_wsbootstrapcomponents_accordion</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_accordion.tx_wsbootstrapcomponents_accordionheader" xml:space="preserve">
+        <source>Headline toggle</source>
+        <target state="translated">Headline (Element auf- und zuklappen)</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_accordion.tx_wsbootstrapcomponents_accordioncontent" xml:space="preserve">
+        <source>Content</source>
+         <target state="translated">Inhalt</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck" xml:space="preserve">
+        <source>tx_wsbootstrapcomponents_carddeck</source>
+        <target state="translated">tx_wsbootstrapcomponents_carddeck</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckimage" xml:space="preserve">
+        <source>Image</source>
+        <target state="translated">Bild</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckheader" xml:space="preserve">
+        <source>Card header</source>
+        <target state="translated">Card Header</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddecktitle" xml:space="preserve">
+        <source>Card title</source>
+        <target state="translated">Card Überschrift</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddecksubtitle" xml:space="preserve">
+        <source>Card subtitle</source>
+        <target state="translated">Card Untertitel</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckbodytext" xml:space="preserve">
+        <source>Card text</source>
+        <target state="translated">Card Text</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckphone" xml:space="preserve">
+        <source>Phone, with icon before</source>
+        <target state="translated">Telefonnummer mit Icon davor</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckfax" xml:space="preserve">
+        <source>Fax, with icon before</source>
+        <target state="translated">Faxnummer mit Icon davor</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckmail" xml:space="preserve">
+        <source>Email, with icon before</source>
+        <target state="translated">E-Mail mit Icon davor</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckbuttonlink" xml:space="preserve">
+        <source>Link for button</source>
+        <target state="translated">Link für Button</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckbuttontext" xml:space="preserve">
+        <source>Buttontext</source>
+        <target state="translated">Buttontext</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckimagebottom" xml:space="preserve">
+        <source>Image below</source>
+        <target state="translated">Bild unten</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carddeck.tx_wsbootstrapcomponents_carddeckfooter" xml:space="preserve">
+        <source>Card footer</source>
+        <target state="translated">Card Footer</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel" xml:space="preserve">
+        <source>tx_wsbootstrapcomponents_carousel</source>
+        <target state="translated">tx_wsbootstrapcomponents_carousel</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselstatic" xml:space="preserve">
+        <source>General Settings</source>
+        <target state="translated">Allgemeine Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselcolor" xml:space="preserve">
+        <source>Color for headline and text</source>
+        <target state="translated">Schriftfarbe</target>
+      </trans-unit>
+       <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselbuttoncolor" xml:space="preserve">
+         <source>Color for button</source>
+         <target state="translated">Farbe des Buttons</target>
+       </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselcolor.I.0" xml:space="preserve">
+        <source>light</source>
+        <target state="translated">hell</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselcolor.I.1" xml:space="preserve">
+        <source>dunkel</source>
+        <target state="translated"></target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselbuttoncolor.I.0" xml:space="preserve">
+        <source>light</source>
+        <target state="translated">hell</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselbuttoncolor.I.1" xml:space="preserve">
+        <source>dark</source>
+        <target state="translated">dunkel</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselimage" xml:space="preserve">
+        <source>Image</source>
+        <target state="translated">Bild</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselheader" xml:space="preserve">
+        <source>Headline</source>
+        <target state="translated">Überschrift</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouseltrailer" xml:space="preserve">
+        <source>Text</source>
+        <target state="translated">Text</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouseltextalign" xml:space="preserve">
+        <source>Text align</source>
+        <target state="translated">Textausrichtung</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carousellink" xml:space="preserve">
+        <source>Link for button</source>
+        <target state="translated">Link für Button</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carousellinktext" xml:space="preserve">
+        <source>Buttontext</source>
+        <target state="translated">Buttontext</target>
+      </trans-unit>
+       <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carousellargetext" xml:space="preserve">
+         <source>Show Text on large screen only</source>
+         <target state="translated">Text nur auf großen Bildschirmen zeigen</target>
+       </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouseltextalign.I.0" xml:space="preserve">
+        <source>center</source>
+        <target state="translated">zentriert</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouseltextalign.I.1" xml:space="preserve">
+        <source>left</source>
+        <target state="translated">linksbündig</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouseltextalign.I.2" xml:space="preserve">
+        <source>right</source>
+        <target state="translated">rechtsbündig</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_accordion" xml:space="preserve">
+        <source>Accordion</source>
+        <target state="translated">Akkordeon</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardbuttonlink" xml:space="preserve">
+        <source>Link for button</source>
+        <target state="translated">Link für Button</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardbuttontext" xml:space="preserve">
+        <source>Buttontext</source>
+        <target state="translated">Buttontext</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carddeck" xml:space="preserve">
+        <source>Card deck</source>
+        <target state="translated">Card Deck</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardfax" xml:space="preserve">
+        <source>Fax, with icon before</source>
+        <target state="translated">Faxnummer mit Icon davor</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardfooter" xml:space="preserve">
+        <source>Card Footer</source>
+        <target state="translated">Card Footer</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardheader" xml:space="preserve">
+        <source>Card header</source>
+        <target state="translated">Card Header</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardimage" xml:space="preserve">
+        <source>Image</source>
+        <target state="translated">Bild</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardimagebottom" xml:space="preserve">
+        <source>Image below</source>
+        <target state="translated">Bild unten</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardmail" xml:space="preserve">
+        <source>Email, with icon before</source>
+        <target state="translated">E-Mail mit Icon davor</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardphone" xml:space="preserve">
+        <source>Phone, with icon before</source>
+        <target state="translated">Telefonnummer mit Icon davor</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardsubtitle" xml:space="preserve">
+        <source>Card subtitle</source>
+        <target state="translated">Card Untertitel</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_cardtitle" xml:space="preserve">
+        <source>Card title</source>
+        <target state="translated">Card Überschrift</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carousel" xml:space="preserve">
+        <source>Carousel / Slide</source>
+        <target state="translated">Carousel / Slide</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselcontrols" xml:space="preserve">
+        <source>Show Controls</source>
+        <target state="translated">Zeige Navigationspfeile</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselindicators" xml:space="preserve">
+        <source>Show indicators</source>
+        <target state="translated">Zeige Indikatoren</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall" xml:space="preserve">
+        <source>Delay, ms</source>
+        <target state="translated">Intervall, millisekunden</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervallbackend" xml:space="preserve">
+        <source>Delay, seconds</source>
+        <target state="translated">Geschwindigkeit in Sekunden</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselpause" xml:space="preserve">
+        <source>Pause on hover</source>
+        <target state="translated">Pause bei "hover"</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_jumbotronfull" xml:space="preserve">
+        <source>No rounded corner</source>
+        <target state="translated">keine abgerundeten Ecken</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_jumbotronlink" xml:space="preserve">
+        <source>Link for button</source>
+        <target state="translated">Link für Button</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_jumbotronlinktext" xml:space="preserve">
+        <source>Buttontext</source>
+        <target state="translated">Buttontext</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_jumbotrontext" xml:space="preserve">
+        <source>Text above divider</source>
+        <target state="translated">Text über Trenner</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_jumbotrontexttwo" xml:space="preserve">
+        <source>Text below divider</source>
+        <target state="translated">Text unter Trenner</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_modal" xml:space="preserve">
+        <source>Launch modal</source>
+        <target state="translated">Modal aufrufen</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_modalaction" xml:space="preserve">
+        <source>Link for modal action</source>
+        <target state="translated">Link für Action</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_modalactiontext" xml:space="preserve">
+        <source>Text for modal action </source>
+        <target state="translated">Text für Action</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_modalclose" xml:space="preserve">
+        <source>Text for Closebutton</source>
+        <target state="translated">Text für Schließen-Button</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_modalcontent" xml:space="preserve">
+        <source>Content</source>
+        <target state="translated">Inhalt</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselcontrols.I.0" xml:space="preserve">
+        <source>yes</source>
+        <target state="translated">ja</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselindicators.I.0" xml:space="preserve">
+        <source>yes</source>
+        <target state="translated">ja</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.0" xml:space="preserve">
+        <source>1000</source>
+        <target state="translated">1000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.1" xml:space="preserve">
+        <source>2000</source>
+        <target state="translated">2000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.2" xml:space="preserve">
+        <source>3000</source>
+        <target state="translated">3000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.3" xml:space="preserve">
+        <source>4000</source>
+        <target state="translated">4000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.4" xml:space="preserve">
+        <source>5000</source>
+        <target state="translated">5000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.5" xml:space="preserve">
+        <source>6000</source>
+        <target state="translated">6000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.6" xml:space="preserve">
+        <source>7000</source>
+        <target state="translated">7000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselintervall.I.7" xml:space="preserve">
+        <source>8000</source>
+        <target state="translated">8000</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselpause.I.0" xml:space="preserve">
+        <source>yes</source>
+        <target state="translated">ja</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_carouselpause.I.1" xml:space="preserve">
+        <source>no</source>
+        <target state="translated">nein</target>
+      </trans-unit>
+      <trans-unit id="tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carousellargetext.I.0" xml:space="preserve">
+        <source>yes</source>
+        <target state="translated">ja</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_wsbootstrapcomponents_jumbotronfull.I.0" xml:space="preserve">
+        <source>yes</source>
+        <target state="translated">ja</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._wsbootstrapcomponents_" xml:space="preserve">
+        <source>ws_bootstrapcomponents</source>
+        <target state="translated">ws_bootstrapcomponents</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.wsbootstrapcomponents_accordion" xml:space="preserve">
+        <source>Accordion</source>
+        <target state="translated">Akkordeon</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.wsbootstrapcomponents_carddeck" xml:space="preserve">
+        <source>Card deck</source>
+        <target state="translated">Card Deck</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.wsbootstrapcomponents_cards" xml:space="preserve">
+        <source>Cards</source>
+        <target state="translated">Cards</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.wsbootstrapcomponents_carousel" xml:space="preserve">
+        <source>Carousel / Slider</source>
+        <target state="translated">Carousel / Slider</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.wsbootstrapcomponents_jumbotron" xml:space="preserve">
+        <source>Jumbotron</source>
+        <target state="translated">Jumbotron</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.wsbootstrapcomponents_modal" xml:space="preserve">
+        <source>Modal</source>
+        <target state="translated">Modal</target>
+      </trans-unit>
+      <trans-unit id="tt_content.colPos.nestedContentColPos" xml:space="preserve">
+        <source>Nested content (ws_bootstrapcomponents)</source>
+        <target state="translated"></target>
+      </trans-unit>
+      <trans-unit id="tt_content.l10n_source" xml:space="preserve">
+        <source>l10n_source</source>
+        <target state="translated">verschachtelter Inhalt (ws_bootstrapcomponents)</target>
+      </trans-unit>
+      <trans-unit id="tt_content.l18n_diffsource" xml:space="preserve">
+        <source>l18n_diffsource</source>
+        <target state="translated">l18n_diffsource</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_impexp_origuid" xml:space="preserve">
+        <source>tx_impexp_origuid</source>
+        <target state="translated">tx_impexp_origuid</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.29" xml:space="preserve">
+        <source>Form</source>
+        <target state="translated">Form</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.30" xml:space="preserve">
+        <source>Accordion</source>
+        <target state="translated">Akkordeon</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.31" xml:space="preserve">
+        <source>Card deck</source>
+        <target state="translated">Card Deck</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.32" xml:space="preserve">
+        <source>cards</source>
+        <target state="translated">cards</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.33" xml:space="preserve">
+        <source>Carousel / Slider</source>
+        <target state="translated">Carousel / Slider</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.34" xml:space="preserve">
+        <source>Jumbotron</source>
+        <target state="translated">Jumbotron</target>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.I.35" xml:space="preserve">
+        <source>Modal</source>
+        <target state="translated">Modal</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.0" xml:space="preserve">
+        <source>1</source>
+        <target state="translated">1</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.1" xml:space="preserve">
+        <source>2</source>
+        <target state="translated">2</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.2" xml:space="preserve">
+        <source>3</source>
+        <target state="translated">3</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.3" xml:space="preserve">
+        <source>4</source>
+        <target state="translated">4</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.4" xml:space="preserve">
+        <source>5</source>
+        <target state="translated">5</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.5" xml:space="preserve">
+        <source>6</source>
+        <target state="translated">6</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.6" xml:space="preserve">
+        <source>7</source>
+        <target state="translated">7</target>
+      </trans-unit>
+      <trans-unit id="tt_content.imagecols.I.7" xml:space="preserve">
+        <source>8</source>
+        <target state="translated">8</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.1" xml:space="preserve">
+        <source>1</source>
+        <target state="translated">1</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.2" xml:space="preserve">
+        <source>2</source>
+        <target state="translated">2</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.3" xml:space="preserve">
+        <source>3</source>
+        <target state="translated">3</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.4" xml:space="preserve">
+        <source>4</source>
+        <target state="translated">4</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.5" xml:space="preserve">
+        <source>5</source>
+        <target state="translated">5</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.6" xml:space="preserve">
+        <source>6</source>
+        <target state="translated">6</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.7" xml:space="preserve">
+        <source>7</source>
+        <target state="translated">7</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.8" xml:space="preserve">
+        <source>8</source>
+        <target state="translated">8</target>
+      </trans-unit>
+      <trans-unit id="tt_content.cols.I.9" xml:space="preserve">
+        <source>9</source>
+        <target state="translated">9</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

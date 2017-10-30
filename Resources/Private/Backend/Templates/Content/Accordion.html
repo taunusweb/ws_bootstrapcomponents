@@ -1,0 +1,10 @@
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_accordion}">
+    <strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_accordion" /></strong>
+<br><f:for each="{processedRow.tx_wsbootstrapcomponents_accordion}" as="item">
+    <ul class="list-inline">
+        <li>
+          {item.tx_wsbootstrapcomponents_accordionheader}
+        </li>
+    </ul>
+</f:for>
+</f:if>

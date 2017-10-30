@@ -1,0 +1,37 @@
+<f:for each="{processedRow.tx_wsbootstrapcomponents_carousel}" as="item">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <f:if condition="tx_wsbootstrapcomponents_carouselheader">
+                {item.tx_wsbootstrapcomponents_carouselheader}
+            </f:if>
+        </div>
+        <div class="panel-body">
+            <f:for each="{item.tx_wsbootstrapcomponents_carouselimage}" as="data_item">
+                <f:image src="{data_item.uid}" treatIdAsReference="1" width="300" class="thumbnail" />
+            </f:for>
+            <f:if condition="tx_wsbootstrapcomponents_carouseltrailer">
+                <p>{item.tx_wsbootstrapcomponents_carouseltrailer}</p>
+            </f:if>
+        </div>
+        <f:if condition="tx_wsbootstrapcomponents_carousellinktext">
+            <div class="panel-footer">{item.tx_wsbootstrapcomponents_carousellinktext}</div>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_carousellargetext}">
+        </f:if>
+    </div>
+</f:for>
+<h3><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tx_wsbootstrapcomponents_carousel.tx_wsbootstrapcomponents_carouselstatic" /></h3>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_carouselintervall}">
+    <strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_carouselintervallbackend" /></strong>
+    {processedRow.tx_wsbootstrapcomponents_carouselintervall.0}<br>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_carouselpause}">
+    <strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_carouselpause" /></strong>
+    {processedRow.tx_wsbootstrapcomponents_carouselpause.0}<br>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_carouselindicators}">
+    <strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_carouselindicators" /></strong><br>
+</f:if>
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_carouselcontrols}">
+    <strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_carouselcontrols" /></strong>
+</f:if>

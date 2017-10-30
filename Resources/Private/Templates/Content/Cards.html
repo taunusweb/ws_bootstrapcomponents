@@ -1,0 +1,56 @@
+<div class="card mb-4">
+    <f:if condition="{data_tx_wsbootstrapcomponents_cardimage}">
+        <f:for each="{data_tx_wsbootstrapcomponents_cardimage}" as="file">
+            <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="card-img-top img-fluid" />
+        </f:for>
+    </f:if>
+
+    <f:if condition="{data.tx_wsbootstrapcomponents_cardheader}">
+        <div class="card-header">
+            {data.tx_wsbootstrapcomponents_cardheader}
+        </div>
+    </f:if>
+    <div class="card-body">
+        <f:if condition="{data.tx_wsbootstrapcomponents_cardtitle}">
+            <h4 class="card-title">{data.tx_wsbootstrapcomponents_cardtitle}</h4>
+        </f:if>
+
+        <f:if condition="{data.tx_wsbootstrapcomponents_cardsubtitle}">
+            <h6 class="card-subtitle mb-2 text-muted">{data.tx_wsbootstrapcomponents_cardsubtitle}</h6>
+        </f:if>
+
+        <f:if condition="{data.bodytext}">
+            <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.bodytext}</f:format.html>
+        </f:if>
+
+        <f:if condition="{data.tx_wsbootstrapcomponents_cardphone}">
+            <i class="fa fa-phone" aria-hidden="true"></i> {data.tx_wsbootstrapcomponents_cardphone}<br />
+        </f:if>
+
+        <f:if condition="{data.tx_wsbootstrapcomponents_cardfax}">
+            <i class="fa fa-fax" aria-hidden="true"></i> {data.tx_wsbootstrapcomponents_cardfax}<br />
+        </f:if>
+
+        <f:if condition="{data.tx_wsbootstrapcomponents_cardmail}">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i> <f:link.email email="{data.tx_wsbootstrapcomponents_cardmail}" class="card-link">{data.tx_wsbootstrapcomponents_cardmail}</f:link.email><br />
+        </f:if>
+
+        <f:if condition="{data.tx_wsbootstrapcomponents_cardbuttonlink}">
+            <f:link.typolink parameter="{data.tx_wsbootstrapcomponents_cardbuttonlink}" class="btn btn-primary mt-3">{data.tx_wsbootstrapcomponents_cardbuttontext}</f:link.typolink><br />
+        </f:if>
+    </div>
+
+    <f:if condition="{data.tx_wsbootstrapcomponents_cardfooter}">
+        <div class="card-footer text-muted">
+            {data.tx_wsbootstrapcomponents_cardfooter}
+        </div>
+    </f:if>
+
+
+    <f:if condition="{data_tx_wsbootstrapcomponents_cardimagebottom}">
+        <f:for each="{data_tx_wsbootstrapcomponents_cardimagebottom}" as="file">
+            <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="card-img-bottom img-fluid" />
+        </f:for>
+    </f:if>
+</div>
+

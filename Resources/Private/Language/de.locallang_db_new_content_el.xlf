@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-10-28T16:16:01+02:00" product-name="ws_bootstrapcomponents">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.tab_title" xml:space="preserve">
+        <source>Bootstrap 4 Elements</source>
+        <target state="translated">Bootstrap 4 Elemente</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.accordion_title" xml:space="preserve">
+        <source>Accordion</source>
+         <target state="translated">Akkordeon</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.accordion_description" xml:space="preserve">
+        <source>Bootstrap 4 based Accordion</source>
+        <target state="translated">Bootstrap 4 Akkordeon (aufklappbare Elemente)</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.carddeck_title" xml:space="preserve">
+        <source>Card deck</source>
+         <target state="translated">Card deck</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.carddeck_description" xml:space="preserve">
+        <source>Bootstrap 4 based Card deck, use for more than one Card in a row with equal height</source>
+         <target state="translated">Bootstrap 4 Card deck, mehrere Karten nebeneinander mit gleicher Höhe</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.cards_title" xml:space="preserve">
+        <source>Cards</source>
+         <target state="translated">Cards</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.cards_description" xml:space="preserve">
+        <source>Bootstrap 4 based Cards with different options</source>
+         <target state="translated">Bootstrap 4 Card mit mehreren Optionen, eine Karte</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.carousel_title" xml:space="preserve">
+        <source>Carousel / Slider</source>
+        <target state="translated">Carousel / Slider</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.carousel_description" xml:space="preserve">
+        <source>Bootstrap 4 based Carousel with optional controls and indicators and caption. Caption in light or dark color.</source>
+        <target state="translated">Bootstrap 4 Carousel / Slider mit optionalen Indikatoren und Navigationspfeilen, Text im Slider (hell oder dunkel)</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.jumbotron_title" xml:space="preserve">
+        <source>Jumbotron</source>
+        <target state="translated">Jumbotron</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.jumbotron_description" xml:space="preserve">
+        <source>Bootstrap 4 based Jumbotron with optional header, text above divider, text below divider and button</source>
+        <target state="translated">Bootstrap 4 Jumbotron mit Header, Text über Trenner, Text unter Trenner und Button (alles optional)</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.modal_title" xml:space="preserve">
+        <source>Modal</source>
+        <target state="translated">Modal</target>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.modal_description" xml:space="preserve">
+        <source>Use Bootstrap 4 based JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</source>
+        <target state="translated">Bootstrap 4 Modal Plugin für Lightboxen, Benachrichtigungen oder beliebigen Inhalt</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

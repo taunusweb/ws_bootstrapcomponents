@@ -1,0 +1,51 @@
+<f:if condition="{data_tx_wsbootstrapcomponents_carddeck}">
+    <div class="card-deck mb-4">
+        <f:for each="{data_tx_wsbootstrapcomponents_carddeck}" as="data_item">
+            <div class="card mb-3 mb-sm-0">
+                <f:if condition="{data_item.data_tx_wsbootstrapcomponents_carddeckimage}">
+                    <f:for each="{data_item.data_tx_wsbootstrapcomponents_carddeckimage}" as="file">
+                        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="card-img-top img-fluid" />
+                    </f:for>
+                </f:if>
+                <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckheader}">
+                    <div class="card-header">
+                        {data_item.data.tx_wsbootstrapcomponents_carddeckheader}
+                    </div>
+                </f:if>
+                <div class="card-body">
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddecktitle}">
+                        <h4 class="card-title">{data_item.data.tx_wsbootstrapcomponents_carddecktitle}</h4>
+                    </f:if>
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddecksubtitle}">
+                        <h6 class="card-subtitle mb-2 text-muted">{data_item.data.tx_wsbootstrapcomponents_carddecksubtitle}</h6>
+                    </f:if>
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckbodytext}">
+                        <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data_item.data.tx_wsbootstrapcomponents_carddeckbodytext}</f:format.html>
+                    </f:if>
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckphone}">
+                        <i class="fa fa-phone" aria-hidden="true"></i> {data_item.data.tx_wsbootstrapcomponents_carddeckphone}<br />
+                    </f:if>
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckfax}">
+                        <i class="fa fa-fax" aria-hidden="true"></i> {data_item.data.tx_wsbootstrapcomponents_carddeckfax}<br />
+                    </f:if>
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckmail}">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i> <f:link.email email="{{data_item.data.tx_wsbootstrapcomponents_carddeckmail}}" class="card-link">{data_item.data.tx_wsbootstrapcomponents_carddeckmail}</f:link.email><br />
+                    </f:if>
+                    <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckbuttonlink}">
+                        <f:link.typolink parameter="{data_item.data.tx_wsbootstrapcomponents_carddeckbuttonlink}" class="btn btn-primary mt-3">{data_item.data.tx_wsbootstrapcomponents_carddeckbuttontext}</f:link.typolink><br />
+                    </f:if>
+                </div>
+                <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carddeckfooter}">
+                    <div class="card-footer text-muted">
+                        {data_item.data.tx_wsbootstrapcomponents_carddeckfooter}
+                    </div>
+                </f:if>
+                <f:if condition="{data_item.data_tx_wsbootstrapcomponents_carddeckimagebottom}">
+                    <f:for each="{data_item.data_tx_wsbootstrapcomponents_carddeckimagebottom}" as="file">
+                        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="card-img-bottom img-fluid" />
+                    </f:for>
+                </f:if>
+            </div>
+        </f:for>
+    </div>
+</f:if>

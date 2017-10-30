@@ -1,0 +1,54 @@
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_cardfooter}">
+    <strong><f:translate key="LLL:EXT:ws_bootstrapcomponents/Resources/Private/Language/locallang_db.xlf:tt_content.tx_wsbootstrapcomponents_cardfooter" /></strong>
+    {processedRow.tx_wsbootstrapcomponents_cardfooter} (raw={row.tx_wsbootstrapcomponents_cardfooter})<br>
+</f:if>
+<div class="panel panel-default">
+    <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardheader}">
+        <div class="panel-heading">
+            {processedRow.tx_wsbootstrapcomponents_cardheader}
+        </div>
+    </f:if>
+    <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardimage}">
+
+        <f:for each="{processedRow.tx_wsbootstrapcomponents_cardimage}" as="item">
+            <f:image src="{item.uid}" treatIdAsReference="1" width="300" class="thumbnail" /><br />
+        </f:for>
+    </f:if>
+    <div class="panel-body">
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardtitle}">
+
+            <h4 class="card-title">
+                {processedRow.tx_wsbootstrapcomponents_cardtitle}</h4>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardsubtitle}">
+            <h6 class="card-subtitle mb-2 text-muted">{processedRow.tx_wsbootstrapcomponents_cardsubtitle}</h6>
+        </f:if>
+        <f:if condition="{processedRow.bodytext}">
+            <f:format.html>{processedRow.bodytext}</f:format.html>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardphone}">
+
+            <i class="fa fa-phone" aria-hidden="true"></i> {processedRow.tx_wsbootstrapcomponents_cardphone}<br>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardfax}">
+            <i class="fa fa-fax" aria-hidden="true"></i> {processedRow.tx_wsbootstrapcomponents_cardfax} <br>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardmail}">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i> {processedRow.tx_wsbootstrapcomponents_cardmail}<br>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardbuttontext}">
+            <button class="btn btn-primary">{processedRow.tx_wsbootstrapcomponents_cardbuttontext}</button><br>
+        </f:if>
+        <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardimagebottom}">
+            <f:for each="{processedRow.tx_wsbootstrapcomponents_cardimagebottom}" as="item">
+                <f:image src="{item.uid}" treatIdAsReference="1" width="300" class="thumbnail" /><br />
+            </f:for>
+        </f:if>
+    </div>
+    <f:if condition="{processedRow.tx_wsbootstrapcomponents_cardfooter}">
+        <div class="panel-footer">
+            {processedRow.tx_wsbootstrapcomponents_cardfooter}
+        </div>
+    </f:if>
+
+</div>

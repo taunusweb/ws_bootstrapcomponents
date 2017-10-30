@@ -1,0 +1,49 @@
+<f:if condition="{processedRow.tx_wsbootstrapcomponents_carddeck}">
+    <f:for each="{processedRow.tx_wsbootstrapcomponents_carddeck}" as="item">
+        <div class="panel panel-default">
+            <f:if condition="{item.tx_wsbootstrapcomponents_carddeckheader}">
+                <div class="panel-heading">
+                    {item.tx_wsbootstrapcomponents_carddeckheader}
+                </div>
+            </f:if>
+            <div class="panel-body">
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckimage}">
+                    <f:for each="{item.tx_wsbootstrapcomponents_carddeckimage}" as="data_item">
+                        <f:image src="{data_item.uid}" treatIdAsReference="1" width="300" class="thumbnail" />
+                    </f:for>
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddecktitle}">
+                    <h4>{item.tx_wsbootstrapcomponents_carddecktitle}</h4>
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddecksubtitle}">
+                    <h6>{item.tx_wsbootstrapcomponents_carddecksubtitle}</h6>
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckbodytext}">
+                    <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{item.tx_wsbootstrapcomponents_carddeckbodytext}</f:format.html>
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckphone}">
+                    <i class="fa fa-phone" aria-hidden="true"></i> {item.tx_wsbootstrapcomponents_carddeckphone}<br />
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckfax}">
+                    <i class="fa fa-fax" aria-hidden="true"></i> {item.tx_wsbootstrapcomponents_carddeckfax}<br />
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckmail}">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i> {item.tx_wsbootstrapcomponents_carddeckmail}<br />
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckbuttonlink}">
+                    <span class="btn btn-primary">{item.tx_wsbootstrapcomponents_carddeckbuttontext}</span><br />
+                </f:if>
+                <f:if condition="{item.tx_wsbootstrapcomponents_carddeckimagebottom}">
+                    <f:for each="{item.tx_wsbootstrapcomponents_carddeckimagebottom}" as="data_item">
+                        <f:image src="{data_item.uid}" treatIdAsReference="1" width="300" class="thumbnail" />
+                    </f:for>
+                </f:if>
+            </div>
+            <f:if condition="{item.tx_wsbootstrapcomponents_carddeckfooter}">
+                <div class="panel-footer">
+                    {item.tx_wsbootstrapcomponents_carddeckfooter}
+                </div>
+            </f:if>
+        </div>
+    </f:for>
+</f:if>

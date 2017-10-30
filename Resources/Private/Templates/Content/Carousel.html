@@ -1,0 +1,46 @@
+<div id="carousel-{data.uid}" class="carousel slide" data-ride="carousel" data-interval="{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 1', then: '1000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 2', then: '2000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 3', then: '3000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 4', then: '4000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 5', then: '5000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 6', then: '6000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 7', then: '7000')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselintervall} == 8', then: '8000')}" data-pause="{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselpause} == 1', then: 'hover')}{f:if(condition: '{data.tx_wsbootstrapcomponents_carouselpause} == 2', then: 'false')}">
+    <f:if condition="{data.tx_wsbootstrapcomponents_carouselindicators}">
+        <ol class="carousel-indicators">
+            <f:for each="{data_tx_wsbootstrapcomponents_carousel}" as="data_item" iteration="objIterator">
+                <li data-target="#carousel-{data.uid}" data-slide-to="item-{objIterator.cycle}" class="{f:if(condition: objIterator.isFirst, then: 'active')}"></li>
+            </f:for>
+        </ol>
+    </f:if>
+    <div class="carousel-inner">
+        <f:for each="{data_tx_wsbootstrapcomponents_carousel}" as="data_item" iteration="itemIterator">
+            <div class="carousel-item {f:if(condition: itemIterator.isFirst, then: 'active')}">
+            <f:if condition="{data_item.data_tx_wsbootstrapcomponents_carouselimage}">
+                <f:for each="{data_item.data_tx_wsbootstrapcomponents_carouselimage}" as="file">
+                    <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="img-fluid" />
+                </f:for>
+            </f:if>
+
+            <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carouselheader} || {data_item.data.tx_wsbootstrapcomponents_carouseltrailer} || {data_item.data.tx_wsbootstrapcomponents_carousellink}">
+            <div class="carousel-caption {f:if(condition: data_item.data.tx_wsbootstrapcomponents_carousellargetext, then: 'd-none d-md-block', else: '')} {f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouseltextalign} == 1', then: '')}{f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouseltextalign} == 2', then: 'text-left')}{f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouseltextalign} == 3', then: 'text-right')}">
+
+                <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carouselheader}">
+                    <h3 class="{f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouselcolor} == 1', then: 'text-light')} {f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouselcolor} == 2', then: 'text-dark')}">{data_item.data.tx_wsbootstrapcomponents_carouselheader}</h3>
+                </f:if>
+                <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carouseltrailer}">
+                    <p class="{f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouselcolor} == 1', then: 'text-light')} {f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouselcolor} == 2', then: 'text-dark')}">{data_item.data.tx_wsbootstrapcomponents_carouseltrailer}</p>
+                </f:if>
+
+                <f:if condition="{data_item.data.tx_wsbootstrapcomponents_carousellink}">
+                    <p><f:link.typolink parameter="{data_item.data.tx_wsbootstrapcomponents_carousellink}" class="btn btn-lg {f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouselbuttoncolor} == 1', then: 'btn-light')} {f:if(condition: '{data_item.data.tx_wsbootstrapcomponents_carouselbuttoncolor} == 2', then: 'btn-dark')}">{data_item.data.tx_wsbootstrapcomponents_carousellinktext}</f:link.typolink></p>
+                </f:if>
+                    </div>
+            </f:if>
+    </div>
+        </f:for>
+</div>
+<f:if condition="{data.tx_wsbootstrapcomponents_carouselcontrols}">
+    <a class="carousel-control-prev" href="#carousel-{data.uid}" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-{data.uid}" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</f:if>
+</div>

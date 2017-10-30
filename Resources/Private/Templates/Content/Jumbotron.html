@@ -1,0 +1,16 @@
+	<div class="jumbotron mb-4 {f:if(condition: '{data.tx_wsbootstrapcomponents_jumbotronfull} == 1', then: 'jumbotron-fluid')}">
+		<div class="container">
+			<h2 class="display-3">{data.header}</h2>
+			<f:if condition="{data.tx_wsbootstrapcomponents_jumbotrontext}">
+				<p class="lead">{data.tx_wsbootstrapcomponents_jumbotrontext}</p>
+			</f:if>
+			<f:if condition="{data.tx_wsbootstrapcomponents_jumbotrontexttwo}">
+				<hr class="my-4">
+				<p>{data.tx_wsbootstrapcomponents_jumbotrontexttwo}</p>
+			</f:if>
+			<f:if condition="{data.tx_wsbootstrapcomponents_jumbotronlink}">
+				<f:link.typolink parameter="{data.tx_wsbootstrapcomponents_jumbotronlink}" class="btn btn-primary btn-lg">{data.tx_wsbootstrapcomponents_jumbotronlinktext}</f:link.typolink>
+			</f:if>
+		</div>
+	</div>
+
