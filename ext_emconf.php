@@ -18,13 +18,13 @@ $EM_CONF[$_EXTKEY] = array (
   'author_email' => 'mail@taunus-webservices.de',
   'author_company' => 'Web-Services',
   'state' => 'beta',
-  'version' => '0.2.0',
+  'version' => '0.2.1',
   'constraints' =>
   array (
     'depends' =>
     array (
       'typo3' => '8.7.0-8.7.99',
-      'wsbootstrap' => '0.5.0 -',
+      'ws_bootstrap' => '0.5.0 -',
     ),
     'conflicts' =>
     array (
