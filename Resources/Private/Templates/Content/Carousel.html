@@ -12,6 +12,11 @@
             <f:if condition="{data_item.data_tx_wsbootstrapcomponents_carouselimage}">
                 <f:for each="{data_item.data_tx_wsbootstrapcomponents_carouselimage}" as="file">
                     <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="img-fluid" />
+                    <f:if condition="{file.properties.copyright}">
+                        <div class="copyright-div">
+                            <span class="copyright-info">{file.properties.copyright}</span>
+                        </div>
+                    </f:if>
                 </f:for>
             </f:if>
 
